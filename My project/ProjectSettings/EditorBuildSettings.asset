@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Dialogue.unity
+    guid: dab7dc5387c187146b9d85fd0c139847
+  - enabled: 1
+    path: Assets/Scenes/Minigames/BioScene.unity
+    guid: 62aa12607cfde2946bf8e2eba462e25c
+  - enabled: 1
+    path: Assets/Scenes/Minigames/BossScene.unity
+    guid: 755363d01902a4e47b151b8c0afa56f5
+  - enabled: 1
+    path: Assets/Scenes/Minigames/PhScene.unity
+    guid: 24553a480e6d2044ca208aa820174b60
+  - enabled: 1
+    path: "Assets/Scenes/Minigames/armdr\xFCcken.unity"
+    guid: d6c901765dfb75e42803dcbd9de42bf6
+  - enabled: 1
+    path: Assets/Scenes/Minigames/chemie_keller.unity
+    guid: 1ed5ee54515840d4cad8b3ce9eaebf33
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Find Errors minigame.unity
+    guid: 1f76b833a0bdee2448f8aab12d7c86e1
+  - enabled: 1
+    path: Assets/Scenes/Minigames/lock_picking.unity
+    guid: 89f26d42bc635ae49b6839eb0f6ca90e
+  - enabled: 1
+    path: Assets/Scenes/Minigames/piano.unity
+    guid: bd97deba7f84c3e42b237467b805715e
+  - enabled: 1
+    path: Assets/Scenes/Minigames/quizgamegeography.unity
+    guid: 3a9ec4c5a35ade14599312955271f9f8
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0

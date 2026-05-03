@@ -1,0 +1,56 @@
+scripts
+armdrugge:
+ 
+alli Button...händ es clickable script mit ProgressbarController als Progressbar
+ 
+progressbar controller hät progressbar script
+mit fill image  = Image
+total time 10
+progress 0
+ 
+game controller häts Game controller script mit 
+ 
+Button left = Button left 
+button right = button right
+und so wiiter
+ 
+ 
+ 
+ 
+lockpicking:
+confrmButton onclick = Lockpickinggame -> lockpickinggame.confirm()
+ 
+ 
+den dials sind alli gliich bis uf zahle
+ 
+also bi dial_1 onclick = dial_1 (eif immer such selber zuäwiise) -> .clicknumber()
+bi dial_2 denn halt dial_2 uws
+ 
+und bi allne no script = NumberSelector
+current number  = 0
+number text = stoht scho döt und sust glaub sich selber
+ 
+ 
+button onclick = lockpickingGame -> lockpickinggame.addCounter()
+ 
+ 
+lockpickinggame skript = LockpickingGame mit
+max clicks = 10
+counter = countertext
+Triedcounter = Text(TMP) (dä under Tried)
+Dial 1 = dial_1 usw.
+
+
+Assets
+Lockpicking:
+Background image  -> LockervonVOrne
+ 
+meh hets glaub nöd fr
+ 
+armdrugge:
+ 
+backgroud sprite -> Amr_1_0
+ 
+Canvas/image sprite = health_red_0
+ 
+isch glaub au alles

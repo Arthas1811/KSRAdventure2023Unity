@@ -1,0 +1,19 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.8f1-e4064264ae96' branch; Version is '6000.2.8f1 (c9992ac36c34) revision 13211946'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-colin" at "2026-05-03T14:11:44.3010749Z"
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 32044 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-05-03T14:11:44Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.8f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+c:\Users\colin\Desktop\KSRAdventure2023Unity\My project
+-quit
+-logFile
+c:\Users\colin\Desktop\KSRAdventure2023Unity\My project\Logs\BatchAssetCheck.log
+Successfully changed project path to: c:\Users\colin\Desktop\KSRAdventure2023Unity\My project
+C:/Users/colin/Desktop/KSRAdventure2023Unity/My project
+Exiting without the bug reporter. Application will terminate with return code 1

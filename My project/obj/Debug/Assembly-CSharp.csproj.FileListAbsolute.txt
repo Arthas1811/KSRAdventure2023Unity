@@ -1,0 +1,12 @@
+C:\Users\colin\OneDrive - Kantonsschule Romanshorn\Schule\EFInformatik\KSRAdventure2023Unity\My project\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\colin\OneDrive - Kantonsschule Romanshorn\Schule\EFInformatik\KSRAdventure2023Unity\My project\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\colin\OneDrive - Kantonsschule Romanshorn\Schule\EFInformatik\KSRAdventure2023Unity\My project\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\colin\OneDrive - Kantonsschule Romanshorn\Schule\EFInformatik\KSRAdventure2023Unity\My project\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\colin\OneDrive - Kantonsschule Romanshorn\Schule\EFInformatik\KSRAdventure2023Unity\My project\obj\Debug\Assembly-CSharp.dll
+C:\Users\colin\OneDrive - Kantonsschule Romanshorn\Schule\EFInformatik\KSRAdventure2023Unity\My project\obj\Debug\Assembly-CSharp.pdb
+C:\Users\colin\Desktop\KSRAdventure2023Unity\My project\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\colin\Desktop\KSRAdventure2023Unity\My project\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\colin\Desktop\KSRAdventure2023Unity\My project\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\colin\Desktop\KSRAdventure2023Unity\My project\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\colin\Desktop\KSRAdventure2023Unity\My project\obj\Debug\Assembly-CSharp.dll
+C:\Users\colin\Desktop\KSRAdventure2023Unity\My project\obj\Debug\Assembly-CSharp.pdb

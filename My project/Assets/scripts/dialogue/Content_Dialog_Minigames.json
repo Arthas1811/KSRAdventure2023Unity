@@ -1,0 +1,251 @@
+{
+  "Armdrugge": {
+    "id": 1,
+    "background": "images/Routing/Haupthall/Answer.png",
+    "phases": {
+      "Start": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Entschuldigung, wisst ihr etw-", "audio": "armdrugge_start_01" },
+          { "order": 2, "speaker": "Chef", "content": "Was denkst du, wer du bist!?!", "audio": "armdrugge_start_02" },
+          { "order": 3, "speaker": "Du", "content": "Was?", "audio": "armdrugge_start_03"},
+          { "order": 4, "speaker": "Chef", "content": "Weisst du überhaupt, mit wem du hier sprichst?", "audio": "armdrugge_start_04" },
+          { "order": 5, "speaker": "Chef", "content": "Wenn du etwas von dem Chef willst, musst du dich zuerst beweisen.", "audio": "armdrugge_start_05" },
+          { "order": 6, "speaker": "Du", "content": "Was muss ich machen?", "audio": "armdrugge_start_06" },
+          { "order": 7, "speaker": "Chef", "content": "Du musst den Chef im Armdrücken besiegen.", "audio": "armdrugge_start_07" },
+          { "order": 8, "speaker": "Chef", "content": "Aber mach dich auf was gefasst, der Chef ist dreifacher Weltmeister im Armdrücken.", "audio": "armdrugge_start_08" },
+          { "order": 9, "speaker": "Chef", "content": "Mach dich bereit, der Chef hat nicht ewig Zeit.", "audio": "armdrugge_start_09" },
+          { "order": 10, "speaker": "Du", "content": "Ich werde mein Bestes geben!", "event": "StartMinigame", "audio": "armdrugge_start_10" }
+        ]
+      },
+      "Retry": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Chef", "content": "Schon zurück? Das ging ja schnell!", "audio": "armdrugge_retry_01" },
+          { "order": 2, "speaker": "Du", "content": "Ich würde es gerne erneut versuchen.", "event": "RetryMinigame", "audio": "armdrugge_retry_02" },
+          { "order": 3, "speaker": "Chef", "content": "Du hast Mumm.", "audio": "armdrugge_retry_03" }
+        ]
+      },
+      "Win": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Chef", "content": "Was?? Wie kann das sein?", "audio": "armdrugge_win_01" },
+          { "order": 2, "speaker": "Chef", "content": "Du hast es tatsächlich geschafft!", "audio": "armdrugge_win_02" },
+          { "order": 3, "speaker": "Du", "content": "Puh, das war schwieriger als gedacht.", "audio": "armdrugge_win_03" },
+          { "order": 4, "speaker": "Chef", "content": "Du hast den Chef fair geschlagen.", "audio": "armdrugge_win_04" },
+          { "order": 5, "speaker": "Chef", "content": "Du hast dir den Respekt des Chefs verdient.", "audio": "armdrugge_win_05" },
+          { "order": 6, "speaker": "Du", "content": "Ich wollte dich fragen, ob du meinen Laptop gesehen hast.", "audio": "armdrugge_win_06" },
+          { "order": 7, "speaker": "Du", "content": "Er ist während der Zwischenpause verschwunden!", "audio": "armdrugge_win_07" },
+          { "order": 8, "speaker": "Chef", "content": "Der Chef hat einen fremden Mann gesehen, der in den Keller gegangen ist. Vielleicht solltest du dort nachsehen.", "event": "UnlockNextArea", "audio": "armdrugge_win_08" }
+        ]
+      },
+      "Loose": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Verdammt! Der Chef ist ja wirklich viel zu stark.", "audio": "armdrugge_loose_01" },
+          { "order": 2, "speaker": "Chef", "content": "Du verschwendest meine Zeit.", "audio": "armdrugge_loose_02" },
+          { "order": 3, "speaker": "Rüpel", "content": "Du hast den Chef gehört.", "audio": "armdrugge_loose_03" },
+          { "order": 4, "speaker": "Rüpel", "content": "Komm zurück, wenn du bereit bist.", "event": "SetRetryAvailable", "audio": "armdrugge_loose_04"}
+        ]
+      }
+    }
+  },
+  "Ph": {
+    "id": 2,
+    "background": "images/Routing/Forum/Forum_5.JPG",
+    "phases": {
+      "Start": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Hallo! Hast du vielleicht gesehen, was mit meinem Laptop passiert ist?", "audio": "ph_start_01" },
+          { "order": 2, "speaker": "Giovanni", "content": "Ciao! Nicht wirklich, aber ich habe einige Informationen zu teilen...", "audio": "ph_start_02" },
+          { "order": 3, "speaker": "Giovanni", "content": "Natürlich nicht umsonst.", "audio": "ph_start_03" },
+          { "order": 4, "speaker": "Du", "content": "Naaaatürlich... Ok!", "audio": "ph_start_04" },
+          { "order": 5, "speaker": "Giovanni", "content": "Wenn du mir bei meinem Projekt im Physiklabor hilfst, werde ich dir sagen, was ich weiss.", "audio": "ph_start_05" },
+          { "order": 6, "speaker": "Du", "content": "So gut wie erledigt!", "event": "StartMinigame", "audio": "ph_start_06" }
+        ]
+      },
+      "Win": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Ein paar nervige Pieptöne und ich bin fertig!", "audio": "ph_win_01" },
+          { "order": 2, "speaker": "Giovanni", "content": "Grazie!", "audio": "ph_win_02" },
+          { "order": 3, "speaker": "Giovanni", "content": "Ich halte mein Versprechen. Hier ist, was ich gehört habe...", "audio": "ph_win_03" },
+          { "order": 4, "speaker": "Du", "content": "Endlich...", "audio": "ph_win_04" },
+          { "order": 5, "speaker": "Giovanni", "content": "Jemand hat den Schlüssel von der Kellertür auf der Skulptur neben der Tür vergessen.", "event": "UnlockNextArea", "audio": "ph_win_05" },
+          { "order": 6, "speaker": "Du", "content": "Wie soll mir das helfen?", "audio": "ph_win_06" },
+          { "order": 7, "speaker": "Giovanni", "content": "┐｜･ิω･ิ#｜┌", "audio": "ph_win_07" }
+        ]
+      },
+      "Loose": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Noch nicht fertig...", "audio": "ph_loose_01" },
+          { "order": 2, "speaker": "Giovanni", "content": "Mamma mia!", "audio": "ph_loose_02" },
+          { "order": 3, "speaker": "Giovanni", "content": "Versuch es noch einmal, diesmal ohne alles explodieren zu lassen.", "event": "SetRetryAvailable", "audio": "ph_loose_03" }
+        ]
+      }
+    }
+  },
+  "Piano": {
+    "id": 3,
+    "background": "images/Routing/GangR/RGang_2.3.1.jpg",
+    "phases": {
+      "Start": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Hallo! Weisst du wo mein Laptop ist?", "audio": "piano_start_01" },
+          { "order": 2, "speaker": "Hans", "content": "Nein, aber ich habe etwas viel Interessanteres...", "audio": "piano_start_02" },
+          { "order": 3, "speaker": "Du", "content": "Ich werde die Polizei rufen.", "audio": "piano_start_03" },
+          { "order": 4, "speaker": "Hans", "content": "NEIN, du Idiot!!!", "audio": "piano_start_04" },
+          { "order": 5, "speaker": "Hans", "content": "Es gibt ein Gerücht über ein Portal in eine andere Dimension in unserer Schule.", "audio": "piano_start_05" },
+          { "order": 6, "speaker": "Hans", "content": "Es ist hinter einer Tür mit einem Löwensymbol versteckt.", "audio": "piano_start_06" },
+          { "order": 7, "speaker": "Hans", "content": "Ich vermute, es ist keine normale Tür.", "audio": "piano_start_07" },
+          { "order": 8, "speaker": "Du", "content": "Warum erzählst du mir das?", "audio": "piano_start_08" },
+          { "order": 9, "speaker": "Hans", "content": ".", "audio": "piano_start_09" },
+          { "order": 10, "speaker": "Hans", "content": "..", "audio": "piano_start_10" },
+          { "order": 11, "speaker": "Hans", "content": "...", "audio": "piano_start_11" },
+          { "order": 12, "speaker": "Hans", "content": "Weil du wie ein Verrückter aussiehst...", "audio": "piano_start_12" },
+          { "order": 13, "speaker": "Du", "content": "Daaamn...", "event": "StartMinigame", "audio": "piano_start_13" }
+        ]
+      },
+      "Win": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Ich habe es gefunden!", "audio": "piano_win_01" },
+          { "order": 2, "speaker": "Hans", "content": "Was?", "audio": "piano_win_02" },
+          { "order": 3, "speaker": "Du", "content": "Ein Zimmer.", "audio": "piano_win_03" },
+          { "order": 4, "speaker": "Du", "content": "Das Portal, von dem du gesprochen hast.", "audio": "piano_win_04" },
+          { "order": 5, "speaker": "Hans", "content": "Bist du irre? Geh weg!", "event": "UnlockNextArea", "audio": "piano_win_05" }
+        ]
+      },
+      "Loose": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Was war das noch mal?", "audio": "piano_loose_01" },
+          { "order": 2, "speaker": "Hans", "content": "Tshh, leise!!!!!", "audio": "piano_loose_02" },
+          { "order": 3, "speaker": "Hans", "content": "Irgendwo in der Schule gibt es eine Tür mit dem Löwensymbol.", "audio": "piano_loose_03" },
+          { "order": 4, "speaker": "Hans", "content": "Man munkelt, dass es ein Portal ist.", "audio": "piano_loose_04" },
+          { "order": 5, "speaker": "Du", "content": "Verstanden, danke nochmals", "event": "SetRetryAvailable", "audio": "piano_loose_05" }
+        ]
+      }
+    }
+  },
+  "Bio": {
+    "id": 4,
+    "background": "images/Routing/Forum/Forum_9.JPG",
+    "phases": {
+      "Start": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Hallo! Könnt ihr mir sagen wo mein Laptop ist?", "audio": "bio_start_01" },
+          { "order": 2, "speaker": "Mauzi", "content": "Vielleicht... wenn du uns helfen kannst :3", "audio": "bio_start_02" },
+          { "order": 3, "speaker": "Du", "content": "Was gibts?", "audio": "bio_start_03" },
+          { "order": 4, "speaker": "Bautzi", "content": "Wir sind richtig schlecht in Bio, kannst du uns helfen?", "audio": "bio_start_04" },
+          { "order": 5, "speaker": "Du", "content": "ok...", "event": "StartMinigame", "audio": "bio_start_05" }
+        ]
+      },
+      "Win": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Viel zu einfach", "audio": "bio_win_01" },
+          { "order": 2, "speaker": "Mauzi", "content": "OMG danke!", "audio": "bio_win_02" },
+          { "order": 3, "speaker": "Bautzi", "content": "Endlich kann ich meinen Eltern eine Note zeigen", "audio": "bio_win_03" },
+          { "order": 4, "speaker": "Du", "content": "Nun raus mit der Sprache, helft mir jetzt!", "audio": "bio_win_04" },
+          { "order": 5, "speaker": "Mautzi", "content": "", "audio": "bio_win_05" }
+        ]
+      },
+      "Loose": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Noch nicht fertig, sorry", "audio": "bio_loose_01" },
+          { "order": 2, "speaker": "Mauzi", "content": "Dann flieg ich halt raus", "audio": "bio_loose_02" },
+          { "order": 3, "speaker": "Bautzi", "content": "L", "event": "SetRetryAvailable", "audio": "bio_loose_03" }
+        ]
+      }
+    }
+  },
+  "Geo": {
+    "id": 5,
+    "background": "images/Routing/Forum/Forum_7.JPG",
+    "phases": {
+      "Start": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Hey, hast du meinen Laptop gesehen? Es ist ein graues Chromebook.", "audio": "geo_start_01" },
+          { "order": 2, "speaker": "Anthony", "content": "Oh, natürlich... dein einzigartiges graues Chromebook", "audio": "geo_start_02" },
+          { "order": 3, "speaker": "Du", "content": "Komm schon, hilf mir!", "audio": "geo_start_03" },
+          { "order": 4, "speaker": "Anthony", "content": "Ok, aber zuerst musst du mein Quiz im Geographieraum bestehen.", "audio": "geo_start_04" },
+          { "order": 5, "speaker": "Du", "content": "Wirklich? Das macht doch keinen Sinn!", "audio": "geo_start_05" },
+          { "order": 6, "speaker": "Anthony", "content": "Dein Laptop, meine Regeln.", "event": "StartMinigame", "audio": "geo_start_06" }
+        ]
+      },
+      "Win": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Ich bin fertig mit dir dumme Aufgabe! Wo ist mein Laptop?", "audio": "geo_win_01" },
+          { "order": 2, "speaker": "Anthony", "content": "Keine Ahnung, Kumpel...", "audio": "geo_win_02" },
+          { "order": 3, "speaker": "Du", "content": "Ich werde di...", "audio": "geo_win_03" },
+          { "order": 4, "speaker": "Anthony", "content": "Ruhig, ruhig, das war ein Witz.", "audio": "geo_win_04" },
+          { "order": 5, "speaker": "Anthony", "content": "Ich habe einen verdächtigen Typ mit einem Laptop gesehen, der am Geographieraum vorbeiging.", "event": "UnlockNextArea", "audio": "geo_win_05" }
+        ]
+      },
+      "Loose": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Anthony", "content": "Du bist nicht so schlau, so schnell fertig zu sein.", "audio": "geo_loose_01" },
+          { "order": 2, "speaker": "Du", "content": "EiNaTmEn, AuSaTmEn...", "event": "SetRetryAvailable", "audio": "geo_loose_02" }
+        ]
+      }
+    }
+  },
+  "Dimitri": {
+    "id": 6,
+    "background": "images/TestingImages/HM3_hallwayN.jpg",
+    "phases": {
+      "Start": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Hello", "audio": "dimitri_01" },
+          { "order": 2, "speaker": "Dimitri", "content": "bring me something, make a very long message that hopefully reveals my bug. adslkjf alödskjf alköjsdf", "audio": "dimitri_02" },
+          { "order": 3, "speaker": "Du", "content": "Hello", "audio": "dimitri_03" },
+          { "order": 4, "speaker": "Dimitri", "content": "did you bring it?", "audio": "dimitri_04" }
+        ]
+      }
+    }
+  },
+  "BgDialogue": {
+    "id": 7,
+    "background": "images/Routing/Forum/Forum_3.JPG",
+    "phases": {
+      "Start": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Ey", "audio": "bg_start_01" },
+          { "order": 2, "speaker": "Du", "content": "Habt ihr vielleicht gesehen wer meinen Laptop genommen hat?", "audio": "bg_start_02" },
+          { "order": 3, "speaker": "Junge", "content": "Hmmmm...", "audio": "bg_start_03" },
+          { "order": 4, "speaker": "Junge", "content": "Wenn du etwas für uns machst können wir dir einen Hinweis geben.", "audio": "bg_start_04" },
+          { "order": 5, "speaker": "Mädchen", "content": "Ja genau. Im BG-Zimmer sind Leute eingebrochen.", "audio": "bg_start_05" },
+          { "order": 6, "speaker": "Mädchen", "content": "Sie haben die Sachen aus dem Schrank im Zimmer ausgeräumt oder komisch verstellt.", "audio": "bg_start_06" },
+          { "order": 7, "speaker": "Junge", "content": "Jetzt müssen wir alles wieder so einräumen, wie es vorher war. Du kannst uns aber jetzt bestimmt helfen.", "audio": "bg_start_07" },
+          { "order": 8, "speaker": "Mädchen", "content": "Wir geben dir auch nachher den Hinweis für deinen Laptop.", "audio": "bg_start_08" },
+          { "order": 9, "speaker": "Junge", "content": "Noch etwas. Es gibt ein Bild am Schrank. Das Bild zeigt dir wie der Schrank vorher aussah.", "audio": "bg_start_09" },
+          { "order": 10, "speaker": "Mädchen", "content": "Ich rate dir aber zuerst die Unterschiede zu finden, dann kannst du ja alles einräumen.", "audio": "bg_start_10" },
+          { "order": 11, "speaker": "Du", "content": "Gut, wenns sein muss.", "audio": "bg_start_11" }
+        ]
+      },
+      "Win": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Du", "content": "Ich habe alles aufgeräumt. Was wisst ihr?", "audio": "bg_win_01" },
+          { "order": 2, "speaker": "Junge", "content": "Gute Arbeit! Wir wissen nichts über deinen Laptop...", "audio": "bg_win_02" },
+          { "order": 3, "speaker": "Mädchen", "content": "Aber wir haben gehört, dass Hans, der Typ vor dem Forum, weiss, wo es einen magischen Red Bull gibt.", "audio": "bg_win_03" },
+          { "order": 4, "speaker": "Junge", "content": "Es wird gemunkelt, dass es besondere Regenerationsfähigkeiten hat.", "audio": "bg_win_04" },
+          { "order": 5, "speaker": "Du", "content": "Und?", "audio": "bg_win_05" },
+          { "order": 6, "speaker": "Mädchen", "content": "Vielleicht kann es dir in einem schwierigen Kampf helfen.", "audio": "bg_win_06" },
+          { "order": 7, "speaker": "Du", "content": "(ಠ_ಠ)", "audio": "bg_win_07" }
+        ]
+      },
+      "Loose": {
+        "Dialogue": [
+          { "order": 1, "speaker": "Junge", "content": "Im BG-Zimmer sind Leute eingebrochen und haben alles verstellt oder asugeräumt.", "audio": "bg_loose_01" },
+          { "order": 2, "speaker": "Junge", "content": "Wenn du alle Sachen wieder einräumst geben wir den Hinweis.", "audio": "bg_loose_02" },
+          { "order": 3, "speaker": "Mädchen", "content": "Finde aber zuerst die Unterschiede, dann kannst du ja alles einräumen.", "audio": "bg_loose_03" }
+        ]
+      }
+    }
+  },
+  "Jacket": {
+    "id": 8,
+    "background": "images/Routing/GangR/RGang_2.3.1.JPG",
+    "phases": {
+      "Start": {
+        "Dialogue": [
+          { "order": 1, "speaker": "William", "content": "Brate, wo isch mini Jacke?", "audio": "jacket_start_01" },
+          { "order": 2, "speaker": "William", "content": "Finde meine Jacke und du wirst belohnt tmm.", "audio": "jacket_start_02" }
+        ]
+      }
+    }
+  }
+}
