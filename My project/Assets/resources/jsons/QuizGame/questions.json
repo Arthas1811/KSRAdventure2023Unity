@@ -1,0 +1,34 @@
+{
+  "questions": [
+	{
+	"question": "What is the capital of Canada?",
+	"answers": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+	"correctIndex": 2
+	},
+	{
+	"question": "Which river is the longest in the world?",
+        "answers": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+        "correctIndex": 1
+    	},
+    	{
+      	"question": "Which volcanic rock is black and glassy?",
+      	"answers": ["Pumice", "Granite", "Obsidian", "Basalt"],
+      	"correctIndex": 2
+    	},
+    	{
+	"question": "What is the name of the dry wind that blows from the Alps?",
+      	"answers": ["Sirocco", "Mistral", "Chinook", "Foehn"],
+      	"correctIndex": 3
+    	},
+    	{
+      	"question": "Which biome is characterized by permafrost?",
+      	"answers": ["Desert", "Rainforest", "Savanna", "Tundra"],
+      	"correctIndex": 3
+    	},
+	{
+	"question": "How high is the Kilimanjaro?",
+	"answers": ["5,905m", "5,900m", "5,895m", "5,890m"],
+	"correctIndex": 2	
+	}
+  	]
+}

@@ -1,0 +1,392 @@
+{
+    "BiologyHall": {
+        "Image": "images/Routing/Biologie/BioBothCorridorsFromClassroom.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Biologie33"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie29"]]
+            }
+        }
+    },
+
+    "Biologie13": {
+        "Image": "images/Routing/Biologie/BioBothCorridorsToClassroom_1.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "BiologyHall"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie14"]]
+            }
+        }
+    },
+
+    "Biologie14": {
+        "Image": "images/Routing/Biologie/BioFloorEntrance.png",
+        "Buttons": {
+            "poly": {
+                "Type": "polygon",
+                "Points": "1301,761,1309,144,1079,142,1042,694",
+                "Actions": [["Route", "Biologie26"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie16"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Hall2"]]
+            }
+        }
+    },
+
+    "Biologie15": {
+        "Image": "images/Routing/Biologie/BioFloorExit.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Biologie14"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie16"]]
+            }
+        }
+    },
+
+    "Biologie16": {
+        "Image": "images/Routing/Biologie/BioFloorMinigame_1.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Biologie14"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie17"]]
+            }
+        }
+    },
+    "Biologie17": {
+        "Image": "images/Routing/Biologie/BioFloorMinigame_2.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Biologie16"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie18"]]
+            }
+        }
+    },
+    "Biologie18": {
+        "Image": "images/Routing/Biologie/BioFloorMinigame_3.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Biologie17"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie19"]]
+            }
+        }
+    },
+    "Biologie19": {
+        "Image": "images/Routing/Biologie/BioFloorMinigame_4.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Biologie18"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie20"]]
+            }
+        }
+    },
+    "Biologie20": {
+        "Image": "images/Routing/Biologie/BioFloorMinigame_5.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Biologie19"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie21"]]
+            }
+        }
+    },
+
+    "Biologie21": {
+        "Image": "images/Routing/Biologie/BioFloorMinigame_6.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Biologie20"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie32"]]
+            },
+            "frog": {
+                "Type": "image",
+                "Image": "images/Routing/Biologie/frog.png",
+                "Points": "1050,511,120,120",
+                "Actions": [],
+                "Visible": true
+            },
+            "frogPolygon": {
+                "Type": "polygon",
+                "Points": "1042,499,1153,502,1161,601,1052,608",
+                "Actions": [
+                    ["Route", "FrogGame"],
+                    ["SetGameState", "Biologie21.frog", "false"],
+                    ["SetGameState", "Biologie21.frogPolygon", "false"]
+                ],
+                "Visible": true
+            }
+        }
+    },
+    "BioVid": {
+        "Image": "images/Routing/Other/black.png",
+        "Buttons": {},
+        "OnEnter": [
+            ["StopMusic", ""],
+            ["Sleep", "1000"],
+            ["PlayVideo", "0,0,1080,1620", "videos/Frosch.mp4"],
+            ["PlayMusic", "Audio/music/gameplay_a.wav"],
+            ["Route", "Biologie32"],
+            ["AddItem", "frog"]
+        ]
+    },
+    "Biologie22": {
+        "Image": "images/Routing/Biologie/BioFloorMinigame_7.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Biologie21"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie23"]]
+            }
+        }
+    },
+    "Biologie23": {
+        "Image": "images/Routing/Biologie/BioFloorMinigame_8.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Biologie22"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie24"]]
+            }
+        }
+    },
+
+    "Biologie24": {
+        "Image": "images/Routing/Biologie/BioLeftCorridorFromClassroom_1.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Biologie23"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie25"]]
+            }
+        }
+    },
+    "Biologie25": {
+        "Image": "images/Routing/Biologie/BioLeftCorridorFromClassroom_2.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Biologie24"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie26"]]
+            }
+        }
+    },
+    "Biologie26": {
+        "Image": "images/Routing/Biologie/BioLeftCorridorToClassroom_1.png",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Biologie14"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Biologie27"]]
+            }
+        }
+    },
+    "Biologie27": {
+        "Image": "images/Routing/Biologie/BioLeftCorridorToClassroom_2.png",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Biologie26"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Biologie28"]]
+            }
+        }
+    },
+    "Biologie28": {
+        "Image": "images/Routing/Biologie/BioLeftCorridorToClassroom_3.png",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Biologie27"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie29"]]
+            },
+            "biodoor": {
+                "Type": "polygon",
+                "Points": "507,885,477,6,829,0,843,840",
+                "Actions": [["Route", "BiologyEntrance"]]
+            }
+        }
+    },
+    "Biologie29": {
+        "Image": "images/Routing/Biologie/BioRightCorridorFromClassroom_1.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "BiologyHall"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Biologie30"]]
+            }
+        }
+    },
+    "Biologie30": {
+        "Image": "images/Routing/Biologie/BioRightCorridorFromClassroom_2.png",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Biologie29"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Biologie31"]]
+            }
+        }
+    },
+    "Biologie31": {
+        "Image": "images/Routing/Biologie/BioRightCorridorToClassroom_1.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Biologie30"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Biologie14"]]
+            }
+        }
+    },
+    "Biologie32": {
+        "Image": "images/Routing/Biologie/BioRightCorridorToClassroom_2.png",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Biologie14"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Biologie33"]]
+            }
+        }
+    },
+    "Biologie33": {
+        "Image": "images/Routing/Biologie/BioRightCorridorToClassroom_3.png",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Biologie32"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "BiologyHall"]]
+            },
+            "biodoor": {
+                "Type": "polygon",
+                "Points": "544,770,826,813,823,3,528,3",
+                "Actions": [["Route", "BiologyEntrance"]]
+            }
+        }
+    },
+    "BiologyMinigame2": {
+        "Type": "Minigame",
+        "FallbackSlide": "BiologyHall",
+        "MinigameDefClassName": "Framework.Minigames.MinigameDefClasses.BiologyMinigame"
+    },
+    "FrogGame": {
+        "Type": "Minigame",
+        "FallbackSlide": "BioVid",
+        "MinigameDefClassName": "Framework.Minigames.MinigameDefClasses.LockpickingMinigame"
+    }
+}

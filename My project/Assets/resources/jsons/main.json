@@ -1,0 +1,186 @@
+{
+    "Hall1": {
+        "Image": "images/Routing/Haupthall/HR.png",
+        "Buttons": {
+            "polygon": {
+                "Type": "polygon",
+                "Points": "877,172,1119,176,1144,191,1255,194,1380,635,1019,624,866,508",
+                "Actions": [["Route", "Hall3"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "GangR8"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "GangR9"]]
+            },
+            "polygon2": {
+                "Type": "polygon",
+                "Points": "347,181,751,178,761,504,329,645,252,179",
+                "Actions": [["Route", "Hall2"]]
+            }
+        }
+    },
+
+    "Hall2": {
+        "Image": "images/Routing/Haupthall/ToMPC.png",
+        "Buttons": {
+            "polygon": {
+                "Type": "polygon",
+                "Points": "804,787,800,754,804,726,814,706,789,700,776,703,768,713,754,714,743,713,740,691,736,681,724,660,723,637,730,612,741,582,756,558,770,552,781,544,770,527,766,508,776,492,793,487,806,488,814,498,820,511,816,531,807,542,809,552,820,557,829,562,834,574,853,627,863,655,884,675,897,688,892,703,883,726,867,747,854,763,852,771,860,783,854,790,844,790,837,794,820,796",
+                "Actions": [["Route", "ArmdruggeDialogue"]],
+                "Visible": true
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Hall1"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Biologie14"]]
+            }
+        }
+    },
+    "Hall2-1": {
+        "Image": "images/Routing/Haupthall/Answer.png",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Hall2"]]
+            }
+        }
+    },
+    "Hall3": {
+        "Image": "images/Routing/Haupthall/HR3.png",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Hall1"]]
+            },
+            "polygon": {
+                "Type": "polygon",
+                "Points": "927,288,1257,252,1225,844,926,669",
+                "Actions": [["Route", "Hall5"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Hall4"]]
+            }
+        }
+    },
+    "Hall4": {
+        "Image": "images/Routing/Haupthall/HR4.png",
+        "Buttons": {
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Hall3"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Hall3"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-1"]]
+            }
+        }
+    },
+    "Hall5": {
+        "Image": "images/Routing/Haupthall/HR5.png",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Hall3"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Hall6"]]
+            }
+        }
+    },
+    "Hall6": {
+        "Image": "images/Routing/Haupthall/HR6.png",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Hall5"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Hall7"]]
+            }
+        }
+    },
+    "Hall7": {
+        "Image": "images/Routing/Haupthall/HR7.png",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Hall6"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Hall8"]]
+            }
+        }
+    },
+    "Hall8": {
+        "Image": "images/Routing/Haupthall/HR8.png",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Hall7"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-8-1"]]
+            }
+        }
+    },
+    "ArmdruggeMinigame": {
+        "Type": "Minigame",
+        "MinigameDefClassName": "Framework.Minigames.MinigameDefClasses.ArmDrugge"
+    },
+    "ArmdruggeDialogue": {
+        "Type": "Minigame",
+
+        "MinigameDefClassName": "Framework.Minigames.MinigameDefClasses.ArmdruggeDialogueStart"
+    },
+    "ArmdruggeDialogueWin": {
+        "Type": "Minigame",
+        "MinigameDefClassName": "Framework.Minigames.MinigameDefClasses.ArmdruggeDialogueWin"
+    },
+    "ArmdruggeDialogueLoose": {
+        "Type": "Minigame",
+        "MinigameDefClassName": "Framework.Minigames.MinigameDefClasses.ArmdruggeDialogueLoose"
+    },
+
+    "Test1": {
+        "Type": "Minigame",
+        "MinigameDefClassName": "Framework.Minigames.MinigameDefClasses.Test1"
+    },
+
+    "Test2": {
+        "Type": "Minigame",
+        "MinigameDefClassName": "Framework.Minigames.MinigameDefClasses.Test2"
+    }
+}

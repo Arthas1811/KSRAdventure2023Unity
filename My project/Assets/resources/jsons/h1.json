@@ -1,0 +1,618 @@
+{
+    "H1-1": {
+        "Image": "images/Routing/H1/0-0.jpg",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-2"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Hall4"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-1-2"]]
+            }
+        }
+    },
+
+    "H1-1-2": {
+        "Image": "images/Routing/H1/0-0-2.jpg",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-1"]]
+            },
+            "polygon": {
+                "Type": "polygon",
+                "Points": "1073,305,1411,240,1418,918,1076,837",
+                "Actions": [["Route", "Music-1"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-1-3"]]
+            }
+        }
+    },
+    "Music-1": {
+        "Image": "images/Routing/Musik/m-1-1.jpg",
+        "Buttons": {
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "Music-2"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-1-2"]]
+            }
+        }
+    },
+    "Music-2": {
+        "Image": "images/Routing/Musik/m-1-2.jpg",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Music-1"]]
+            },
+            "poly": {
+                "Type": "polygon",
+                "Points": "511,958,504,785,462,775,461,705,535,687,564,627,567,598,567,506,601,499,1216,485,1219,531,1219,631,1221,724,1191,845,1188,960,1199,1080,748,1080,675,1076",
+                "Actions": [["Route", "Music-Min"]]
+            }
+        }
+    },
+    "Music-Red": {
+        "Image": "images/Routing/Musik/m-1-2.jpg",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "Music-1"]]
+            },
+            "Redbull": {
+                "Type": "image",
+                "Image": "images/red-bull.png",
+                "Points": "1032,400,90,90",
+                "Actions": [],
+                "Visible": true
+            },
+            "BullPolygon": {
+                "Type": "polygon",
+                "Points": "1023,484,1020,381,1125,368,1125,483",
+                "Actions": [
+                    ["SetGameState", "Music-Red.Redbull", "false"],
+		            ["ChangeRedBull","1"],
+                    [
+                        "SetGameState",
+                        "Music-Red.BullPolygon",
+                        "false"
+                    ],
+                    ["AddItem", "redbull"]
+                ],
+                "Visible": true
+            }
+
+        }
+    },
+    "H1-1-3": {
+        "Image": "images/Routing/H1/0-0-3.jpg",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-1-5"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-1-2"]]
+            },
+            "polygon": {
+                "Type": "polygon",
+                "Points": "983,270,1315,271,1315,921,982,931",
+                "Actions": [["Route", "H1-1-4"]]
+            }
+        }
+    },
+    "H1-1-4": {
+        "Image": "images/Routing/H1/0-0-4.jpg",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-1-5"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-1-3"]]
+            },
+            "polygon": {
+                "Type": "polygon",
+                "Points": "983,270,1315,271,1315,921,982,931",
+                "Actions": [["Route", "ArtEntrance"]]
+            }
+        }
+    },
+    "H1-1-5": {
+        "Image": "images/Routing/H1/0-0-5.jpg",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-3"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-1-3"]]
+            }
+        }
+    },
+    "H1-2": {
+        "Image": "images/Routing/H1/0-1.jpg",
+        "Buttons": {
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-1"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-2-1"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-3"]]
+            }
+        }
+    },
+    "H1-2-1": {
+        "Image": "images/Routing/H1/0-1-1.jpg",
+        "Buttons": {
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-2"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "Hall3"]]
+            }
+        }
+    },
+    "H1-3": {
+        "Image": "images/Routing/H1/0-2.jpg",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-2"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-4"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-3-1"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-3-1"]]
+            }
+        }
+    },
+    "H1-3-1": {
+        "Image": "images/Routing/H1/0-2-1.jpg",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-4-1"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-2-1"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-3"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-3"]]
+            }
+        }
+    },
+    "H1-4": {
+        "Image": "images/Routing/H1/0-3.jpg",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-3"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-6"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-4-1"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-4-1"]]
+            }
+        }
+    },
+    "H1-4-1": {
+        "Image": "images/Routing/H1/0-3-1.jpg",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-5-1"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-3-1"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-4"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-4"]]
+            }
+        }
+    },
+    "H1-5": {
+        "Image": "images/Routing/H1/0-4.jpg",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-4"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-6"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-5-1"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-5-1"]]
+            }
+        }
+    },
+    "H1-5-1": {
+        "Image": "images/Routing/H1/0-4-1.jpg",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-6-1-2"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-4-1"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-6"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-7"]]
+            }
+        }
+    },
+    "H1-6": {
+        "Image": "images/Routing/H1/0-5.jpg",
+        "Buttons": {
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-5-1"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-7"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-4"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-6-1"]]
+            }
+        }
+    },
+
+    "H1-6-1": {
+        "Image": "images/Routing/H1/0-9.jpg",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-6-2"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-6"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-6-1-1"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-6-1-2"]]
+            }
+        }
+    },
+    "H1-6-1-2": {
+        "Image": "images/Routing/H1/0-9-1.jpg",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-5-1"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-6-2-1"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-6-1"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-6-1-1"]]
+            }
+        }
+    },
+    "H1-6-1-1": {
+        "Image": "images/Routing/H1/0-12.jpg",
+        "Buttons": {
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-6-1"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-6-1-2"]]
+            },
+            "Keys": {
+                "Type": "image",
+                "Image": "images/Routing/H1/keys.png",
+                "Points": "790,790,80,80",
+                "Actions": [],
+                "Visible": true
+            },
+            "KeysPolygon": {
+                "Type": "polygon",
+                "Points": "796,802,837,803,867,820,872,850,872,870,859,870,840,870,819,860,803,849,791,832",
+                "Actions": [
+                    ["SetGameState", "H1-6-1-1.Keys", "false"],
+                    ["SetGameState", "KeyTaken", "true"],
+                    ["SetGameState", "H1-6-1-1.KeysPolygon", "false"],
+                    ["AddItem", "keys"]
+                ],
+                "Visible": true
+            }
+        }
+    },
+    "H1-6-2": {
+        "Image": "images/Routing/H1/0-10.jpg",
+        "Buttons": {
+            "polygon": {
+                "Type": "polygon",
+                "Points": "945,212,1161,85,1165,965,951,800",
+                "Actions": [["Route", "H1-6-3"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-6-1"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-6-2-1"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-6-2-1"]]
+            }
+        }
+    },
+    "H1-6-2-1": {
+        "Image": "images/Routing/H1/0-10-1.jpg",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-6-1-2"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Geo8"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-6-2"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-6-2"]]
+            }
+        }
+    },
+    "H1-6-3": {
+        "Image": "images/Routing/H1/0-11.jpg",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "GeoEntrance"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-6-2"]]
+            }
+        }
+    },
+    "H1-7": {
+        "Image": "images/Routing/H1/0-6.jpg",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-5-1"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-6"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-8"]]
+            }
+        }
+    },
+    "H1-8": {
+        "Image": "images/Routing/H1/0-7.jpg",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "H1-7"]]
+            },
+            "polygon2": {
+                "Type": "polygon",
+                "Points": "558,844,542,152,6,99,6,900",
+                "Actions": [["Route", "Hall8"]]
+            },
+            "polygon": {
+                "Type": "polygon",
+                "Points": "747,359,943,365,949,794,758,821",
+                "Actions": [["Route", "H1-9"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "H1-8-1"]]
+            }
+        }
+    },
+    "H1-8-1": {
+        "Image": "images/Routing/H1/0-7-1.jpg",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "Hall8"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-8"]]
+            },
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "H1-5-1"]]
+            }
+        }
+    },
+    "H1-9": {
+        "Image": "images/Routing/H1/0-8.jpg",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "H1-8"]]
+            },
+            "polygon": {
+                "Type": "polygon",
+                "Points": "602,143,1060,140,1062,1074,604,1076",
+                "Actions": [
+                    ["RequireItem", "keys"],
+                    ["Route", "Hit"]
+                ]
+            }
+        }
+    },
+    "Hit": {
+        "Image": "images/Other/black.png",
+        "Buttons": {},
+        "OnEnter": [
+            ["Sleep", "1000"],
+            ["StopMusic", ""],
+            ["PlayVideo", "0,0,1080,1620", "videos/knocked-out.mp4"],
+            ["Route", "Awakening"]
+        ]
+    },
+    "Music-Min": {
+        "Type": "Minigame",
+        "FallbackSlide": "Music-R",
+        "MinigameDefClassName": "Framework.Minigames.MinigameDefClasses.PianoMinigame"
+    }
+}

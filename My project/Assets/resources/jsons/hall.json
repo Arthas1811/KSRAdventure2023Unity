@@ -1,0 +1,308 @@
+{
+    "HauptHalleMitte": {
+        "Image": "images/Routing/Haupthall/FromBioFloorToMainHall_1.png",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "HauptHalle2"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "HauptHalle2"]]
+            }
+        }
+    },
+    "HauptHalle1": {
+        "Image": "images/Routing/Haupthall/FromBioFloorToMainHallRight.png",
+        "Buttons": {}
+    },
+    "HauptHalle2": {
+        "Image": "images/Routing/Haupthall/FromBioFloorToMainHall_2.png",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "HauptHalle3"]]
+            },
+
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "HauptHalleMitte"]]
+            }
+        }
+    },
+    "HauptHalle3": {
+        "Image": "images/Routing/Haupthall/FromBioFloorToMainHall_3.png",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "HauptHalle4"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "HauptHalle13"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "HauptHalle2"]]
+            }
+        }
+    },
+    "HauptHalle4": {
+        "Image": "images/Routing/Haupthall/FromBioFloorToMainHall_4.png",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "HauptHalle5"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "HauptHalle15"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "HauptHalle10"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "HauptHalle3"]]
+            }
+        }
+    },
+    "HauptHalle5": {
+        "Image": "images/Routing/Haupthall/FromBioFloorToMainHall_5.png",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "HauptHalle6"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "HauptHalle14"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "HauptHalle8"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "HauptHalle4"]]
+            }
+        }
+    },
+    "HauptHalle6": {
+        "Image": "images/Routing/Haupthall/FromBioFloorToMainHall_6.png",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "HauptHalle7"]]
+            },
+
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "HauptHalle5"]]
+            }
+        }
+    },
+    "HauptHalle7": {
+        "Image": "images/Routing/Haupthall/FromBioFloorToMainHall_7.png",
+        "Buttons": {
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "HauptHalle6"]]
+            }
+        }
+    },
+    "HauptHalle8": {
+        "Image": "images/Routing/Haupthall/FromMainHallToBioFloor_1.png",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "HauptHalle9"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "HauptHalle5"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "HauptHalle14"]]
+            }
+        }
+    },
+    "HauptHalle9": {
+        "Image": "images/Routing/Haupthall/FromMainHallToBioFloor_2.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "HauptHalle10"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "HauptHalle15"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "HauptHalle8"]]
+            }
+        }
+    },
+    "HauptHalle10": {
+        "Image": "images/Routing/Haupthall/FromMainHallToStairsHR.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "HauptHalle4"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "HauptHalle9"]]
+            }
+        }
+    },
+    "HauptHalle11": {
+        "Image": "images/Routing/Haupthall/HR.png",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "HauptHalle12"]]
+            }
+        }
+    },
+    "HauptHalle12": {
+        "Image": "images/Routing/Haupthall/HR_ToMainHall.png",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "HauptHalle13"]]
+            },
+
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "HauptHalle11"]]
+            }
+        }
+    },
+    "HauptHalle13": {
+        "Image": "images/Routing/Haupthall/HR_toKantiShop.png",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "HauptHalle15"]]
+            },
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "HauptHalle17"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "HauptHalle3"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "HauptHalle12"]]
+            }
+        }
+    },
+    "HauptHalle14": {
+        "Image": "images/Routing/Haupthall/MainHallEntrance.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "HauptHalle8"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "HauptHalle5"]]
+            }
+        }
+    },
+    "HauptHalle15": {
+        "Image": "images/Routing/Haupthall/MainHallKantiShopPart.png",
+        "Buttons": {
+            "left": {
+                "Type": "preset",
+                "Image": "left",
+                "Actions": [["Route", "HauptHalle9"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "HauptHalle4"]]
+            },
+            "bottom": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "HauptHalle13"]]
+            }
+        }
+    },
+    "HauptHalle16": {
+        "Image": "images/Routing/Haupthall/ToMPC.png",
+        "Buttons": {
+            "armdruggeMinigame": {
+                "Type": "polygon",
+                "Points": "780,475,692,626,723,835,1032,859,1069,609",
+                "Actions": [["Route", "ArmdruggeMinigame"]]
+            },
+            "back": {
+                "Type": "preset",
+                "Image": "bottom",
+                "Actions": [["Route", "HauptHalle17"]]
+            }
+        }
+    },
+    "HauptHalle17": {
+        "Image": "images/Routing/Haupthall/ToMPC_2.png",
+        "Buttons": {
+            "top": {
+                "Type": "preset",
+                "Image": "top",
+                "Actions": [["Route", "HauptHalle16"]]
+            },
+            "right": {
+                "Type": "preset",
+                "Image": "right",
+                "Actions": [["Route", "HauptHalle13"]]
+            }
+        }
+    },
+    "HauptHalle18": {
+        "Image": "images/Routing/Haupthall/ToMPC_left.png",
+        "Buttons": {}
+    }
+}

@@ -1,0 +1,181 @@
+{
+  "inventory": {
+    "items": [
+      {
+      "id": "frog",
+      "name": "frog",
+      "quantity": 0
+      },
+      {
+      "id": "glycerin",
+      "name": "Glycerin",
+      "quantity": 0
+      },
+      {
+      "id": "coffeemug",
+      "name": "Mug",
+      "quantity": 0
+      },
+      {
+      "id": "goldkey",
+      "name": "Key1",
+      "quantity": 0
+      },
+      {
+      "id": "key2",
+      "name": "Key2",
+      "quantity": 0
+      },
+      {
+      "id": "keys",
+      "name": "Kellerschlüssel",
+      "quantity": 0
+      },
+      {
+      "id": "nitric_acid",
+      "name": "Salpetersäure",
+      "quantity": 0
+      },
+      {
+      "id": "nitro_beaker",
+      "name": "Nitroglyceringemisch",
+      "quantity": 0
+      },
+      {
+      "id": "nitrogly_beaker",
+      "name": "Nitroglycerin",
+      "quantity": 0
+      },
+      {
+      "id": "nitro_pipette",
+      "name": "Pipette",
+      "quantity": 0
+      },
+      {
+      "id": "pipette",
+      "name": "Pipette",
+      "quantity": 0
+      },
+      {
+      "id": "redbull",
+      "name": "RedBull",
+      "quantity": 0
+      },
+      {
+      "id": "sulfuric_acid",
+      "name": "Schwefelsäure",
+      "quantity": 0
+      },
+      {
+      "id": "surfacecharger",
+      "name": "Surface Charger",
+      "quantity": 0
+      }
+    ]
+  },
+ 
+  "progress":
+  {
+    "minigames":[
+      {
+        "game": "armdrugge",
+        "completed": false,
+        "tries": 0
+      },
+      {
+        "game": "bg",
+        "completed": false,
+        "tries": 0
+      },
+      {
+        "game": "biology",
+        "completed": false,
+        "tries": 0
+      },
+      {
+        "game": "bossfight",
+        "completed": false,
+        "tries": 0
+      },
+      {
+        "game": "chemie",
+        "completed": false,
+        "tries": 0
+      },
+      {
+        "game": "finderrors",
+        "completed": false,
+        "tries": 0
+      },
+      {
+        "game": "geography",
+        "completed": false,
+        "tries": 0
+      },
+      {
+        "game": "lockpicking",
+        "completed": false,
+        "tries": 0
+      },
+      {
+        "game": "jacket",
+        "completed": false,
+        "tries": 0
+      },
+      {
+        "game": "physics",
+        "completed": false,
+        "tries": 0
+      },
+      {
+        "game": "piano",
+        "completed": false,
+        "tries": 0
+      }
+    ]
+  },
+ 
+  "gameState": {
+    "flags": {
+      "Biologie21.frog": true,
+      "Biologie21.frogPolygon": true,
+      "ChemieKeller_Exit.DoorClosed": true,
+      "ChemieKeller_Exit.DoorPolygon": true,
+      "ChemieKeller_Exit.Top": false,
+      "ChemieKeller_MiniGameArea.Overlay": false,
+      "ChemieKeller_MiniGameArea.RecipeOverlay": false,
+      "ChemieKeller_e.Glycerin": true,
+      "ChemieKeller_e.GlycerinPolygon": true,
+      "ChemieKeller_n.SulfuricAcid": true,
+      "ChemieKeller_n.SulfuricAcidPolygon": true,
+      "ChemieKeller_n_e.SulfuricAcid": true,
+      "ChemieKeller_n_e.SulfuricAcidPolygon": true,
+      "ChemieKeller_s.ClosedDoor": true,
+      "ChemieKeller_s.FridgePolygon": false,
+      "ChemieKeller_s.NitricAcid": true,
+      "ChemieKeller_s.NitricAcidPolygon": true,
+      "ChemieKeller_s_e.ClosedDoor": true,
+      "ChemieKeller_s_e.ClosedDoorPolygon": true,
+      "ChemieKeller_s_e.OpenedDoorPolygon": false,
+      "H1-6-1-1.Keys": true,
+      "H1-6-1-1.KeysPolygon": true,
+      "KeyTaken": false,
+      "Music-Red.BullPolygon": true,
+      "Music-Red.Redbull": true
+    },
+    "redBull": 0
+  },
+ 
+  "location":
+  {
+    "room": "forum",
+    "pos":{
+      "x": 0,
+      "y": 0
+    }
+  },
+ 
+  "settings":{
+    "volume": 50
+  }
+}

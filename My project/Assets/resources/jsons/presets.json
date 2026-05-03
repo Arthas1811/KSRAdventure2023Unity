@@ -1,0 +1,30 @@
+{
+	"left": {
+		"id": "pos-preset-left",
+		"x": "0",
+		"y": "340",
+		"width": "150",
+		"height": "400"
+	},
+	"right": {
+		"id": "pos-preset-right",
+		"x": "1470",
+		"y": "340",
+		"width": "150",
+		"height": "400"
+	},
+	"top": {
+		"id": "pos-preset-top",
+		"x": "610",
+		"y": "0",
+		"width": "400",
+		"height": "150"
+	},
+	"bottom": {
+		"id": "pos-preset-bottom",
+		"x": "610",
+		"y": "930",
+		"width": "400",
+		"height": "150"
+	}
+}

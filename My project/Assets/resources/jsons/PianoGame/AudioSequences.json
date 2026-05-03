@@ -1,0 +1,11 @@
+{
+  "lives": 3,
+  "rounds": [
+    {
+      "notes": ["C1", "D", "E"]
+    },
+    {
+      "notes": ["C1", "CSharp", "G", "C2"]
+    }
+  ]
+}
